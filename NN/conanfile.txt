@@ -1,0 +1,16 @@
+[requires]
+opencv/4.5.2
+nlohmann_json/3.10.5
+boost/1.75.0
+
+[options]
+#opencv:with_cuda=True
+
+
+[generators]
+cmake_find_package
+cmake_paths 
+
+[imports] 
+lib, *.so* -> ../conan-imports/bin 
+lib, *.a -> ../conan-imports/lib
