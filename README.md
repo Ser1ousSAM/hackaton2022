@@ -1,13 +1,16 @@
 # hackaton0922
 
 ## Результаты
-![Детектирование СИЗ нейросетью](https://github.com/Valetron/hackaton0922/blob/main/README/cut.mp4)
 
+### Картинка
 ![Выставление зоны детектирования в web интерфейсе](README/cut.png)
 
+### Пример детектирования
+![](README/cut.gif)
+
 ## Участники
-[Валерий Ржевский](https://github.com/Valetron) \
 [Глеб Харитонов](https://github.com/Ser1ousSAM) \
+[Валерий Ржевский](https://github.com/Valetron) \
 [Денис Жиров](https://github.com/myaak)
 
 ## Frontend
@@ -56,4 +59,3 @@ cd build
 cmake ..
 cmake --build .
 ```
-
